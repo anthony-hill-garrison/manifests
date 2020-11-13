@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="thundercomm" review="null"/>
+<!--  <remote fetch="." name="thundercomm" review="null"/> -->
   <remote fetch="https://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
   <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="refs/heads/LE.UM.4.2.3.r1"/>
@@ -75,7 +75,7 @@
   <project name="quic/le/wayland/weston" path="apps_proc/src/display/weston" revision="04b6628aba0002eb44682576ba2c9f5e279b5084" upstream="refs/heads/display.lnx.3.0.r39-rel"/>
 
   <!--modify -->
-  <project name="external/openembedded.org/meta-openembedded" path="apps_proc/poky/meta-openembedded" remote="thundercomm" revision="3d652692dc3eddf31327b5bd38522f9d3fe4dc0f" upstream="SDK.turbox-c610-le1.0-dev"/>
+  <!--<project name="external/openembedded.org/meta-openembedded" path="apps_proc/poky/meta-openembedded" remote="thundercomm" revision="3d652692dc3eddf31327b5bd38522f9d3fe4dc0f" upstream="SDK.turbox-c610-le1.0-dev"/>
   <project name="external/yoctoproject.org/poky" path="apps_proc/poky" remote="thundercomm" revision="2be687726653adcaa2d6106662d5a37bcbdabe0e" upstream="SDK.turbox-c610-le1.0-dev"/>
   <project name="kernel/msm-4.14" path="apps_proc/src/kernel/msm-4.14" remote="thundercomm" revision="58d11811cd2ff8a52d46257756338fda4e0b9ce4" upstream="SDK.turbox-c610-le1.0-dev"/>
   <project name="platform/vendor/opensource/audio-kernel" path="apps_proc/src/vendor/qcom/opensource/audio-kernel" remote="thundercomm" revision="79b794a0556175ec4fe3e6dd6c9c3c4db2e3afc1" upstream="SDK.turbox-c610-le1.0-dev"/>
@@ -109,5 +109,5 @@
   <project name="trustzone_images" path="trustzone_images" remote="thundercomm" revision="91a8ec99037c6fa3e4e9dde9c483c4c5c85541a4" upstream="SDK.turbox-c610-le1.0-dev"/>
   <project name="wlan_proc" path="wlan_proc" remote="thundercomm" revision="c210136cc560ac00cd7484f17d319a26e945164f" upstream="SDK.turbox-c610-le1.0-dev"/>
   <project name="apps_proc" path="apps_proc" remote="thundercomm" revision="79ea7027e38e71471429659738db57d9574dc563" upstream="SDK.turbox-c610-le1.0-dev"/>
-
+-->
 </manifest>
